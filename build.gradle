@@ -17,5 +17,6 @@ repositories {
 dependencies {
     implementation libraries.kotlinStdLib
 
+    testImplementation libraries.googleTruth
     testImplementation libraries.jUnit
 }

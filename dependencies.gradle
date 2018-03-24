@@ -7,6 +7,7 @@ ext {
             build       : [
                     kotlinGradle: "org.jetbrains.kotlin:kotlin-gradle-plugin:${versions.kotlin}"
             ],
+            googleTruth : 'com.google.truth:truth:0.39',
             jUnit       : 'junit:junit:4.12',
             kotlinStdLib: "org.jetbrains.kotlin:kotlin-stdlib:${versions.kotlin}"
     ]
