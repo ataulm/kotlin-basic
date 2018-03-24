@@ -1,0 +1,13 @@
+ext {
+    versions = [
+            kotlin: '1.2.31'
+    ]
+
+    libraries = [
+            build       : [
+                    kotlinGradle: "org.jetbrains.kotlin:kotlin-gradle-plugin:${versions.kotlin}"
+            ],
+            jUnit       : 'junit:junit:4.12',
+            kotlinStdLib: "org.jetbrains.kotlin:kotlin-stdlib:${versions.kotlin}"
+    ]
+}

@@ -1,0 +1,21 @@
+buildscript {
+    apply from: 'dependencies.gradle'
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath libraries.build.kotlinGradle
+    }
+}
+
+apply plugin: 'kotlin'
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    implementation libraries.kotlinStdLib
+
+    testImplementation libraries.jUnit
+}
