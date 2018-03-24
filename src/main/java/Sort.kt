@@ -1,5 +1,12 @@
+fun quickSort(array: IntArray) {
+    // TODO
+}
+
 /**
  * Works by splitting an array into two halves, sorting each half and then merging the result together.
+ *
+ * The space complexity of merge sort is O(n), since you need that helper array.
+ * The runtime complexity is O(n log n) in AVERAGE case or O(n^2) in the WORST case.
  */
 fun mergeSort(array: IntArray) {
     mergeSort(array, 0, array.size - 1)
